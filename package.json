@@ -1,9 +1,9 @@
 {
   "name": "mio-discord-bot",
   "version": "1.0.0",
-  "main": "bot2.js",  
+  "main": "bot2.js",
   "scripts": {
-    "start": "node bot2.js"  
+    "start": "node bot2.js"
   },
   "keywords": [],
   "author": "",
