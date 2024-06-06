@@ -1,0 +1,20 @@
+{
+  "name": "mio-discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "git": "^0.1.5",
+    "xlsx": "^0.18.5"
+  }
+}
