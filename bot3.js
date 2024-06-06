@@ -1,9 +1,10 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const axios = require('axios');
 const ExcelJS = require('exceljs');
 
 // Configura i tuoi token qui
-const DISCORD_TOKEN = 'MTI0NzgzNDk2MTY4MDAwNzE4MA.GNDIq2.RDZEtvIg6nc89brQqFJHhVb-tk-BRDz2phuBIk';
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const AUTHORIZATION_TOKEN = 'nWLRC8T8d_bINy6n7zFGTB68DQdFuqo1gkjd6I2vWsbD';
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 const CURRENT_PID = '65e607b2ebdfdac278104759';
