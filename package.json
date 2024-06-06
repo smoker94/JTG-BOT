@@ -1,9 +1,9 @@
 {
   "name": "mio-discord-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot2.js",  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot2.js"  
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,6 @@
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "exceljs": "^4.4.0",
-    "git": "^0.1.5",
-    "xlsx": "^0.18.5"
+    "git": "^0.1.5"
   }
 }

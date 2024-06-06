@@ -1,0 +1,8 @@
+# Normalizza i file di testo con LF
+* text=auto
+
+# Mantiene i caratteri di fine riga CRLF per i file batch
+*.bat text eol=crlf
+
+# Mantiene i caratteri di fine riga LF per gli script di shell
+*.sh text eol=lf
